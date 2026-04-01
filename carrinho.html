@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Carrinho - Ruby Rose</title>
+    <link rel="stylesheet" href="css.primeira,pagina.css">
+</head>
+<body class="pagina-carrinho">
+
+    <div class="cart-main-container">
+        <h1 class="cart-title">Meu carrinho 🛒</h1>
+
+        <div class="cart-left">
+            <table class="product-table">
+                <thead>
+                    <tr>
+                        <th>Produto</th>
+                        <th>Quantidade</th>
+                        <th>Valor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="product-cell">
+                            <img src="img/c40 corretivo.png" alt="Corretivo" class="product-img">
+                            <p class="product-name">corretivo</p>
+                        </td>
+                        <td>
+                            <div class="qty-wrapper">
+                                <span class="qty-text-inline">Quantidade</span>
+                                <div class="qty-selector">
+                                    <button class="qty-btn">-</button>
+                                    <span class="qty-value">1</span>
+                                    <button class="qty-btn">+</button>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="price-cell">R$ 17,89</td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="product-cell">
+                            <img src="img/blush whatever gettinh ready.webp" alt="Blush" class="product-img">
+                            <p class="product-name">Blush</p>
+                        </td>
+                        <td>
+                            <div class="qty-wrapper">
+                                <span class="qty-text-inline">Quantidade</span>
+                                <div class="qty-selector">
+                                    <button class="qty-btn">-</button>
+                                    <span class="qty-value">1</span>
+                                    <button class="qty-btn">+</button>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="price-cell">R$ 30,64</td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="product-cell">
+                            <img src="img/gloss labial.webp" alt="Lip Balm" class="product-img">
+                            <p class="product-name">Lip balm</p>
+                        </td>
+                        <td>
+                            <div class="qty-wrapper">
+                                <span class="qty-text-inline">Quantidade</span>
+                                <div class="qty-selector">
+                                    <button class="qty-btn">-</button>
+                                    <span class="qty-value">1</span>
+                                    <button class="qty-btn">+</button>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="price-cell">7,00</td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="product-cell">
+                            <img src="img/paleta girls.webp" alt="Paleta de Sombras" class="product-img">
+                            <p class="product-name">Paleta de sombras</p>
+                        </td>
+                        <td>
+                            <div class="qty-wrapper">
+                                <span class="qty-text-inline">Quantidade</span>
+                                <div class="qty-selector">
+                                    <button class="qty-btn">-</button>
+                                    <span class="qty-value">1</span>
+                                    <button class="qty-btn">+</button>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="price-cell">40,00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="cart-right">
+            <div class="summary-section shipping-calc">
+                <h3 class="summary-title">Calcule o frete</h3>
+                <div class="form-row">
+                    <span class="form-label">cep*</span>
+                    <div class="form-input-box"></div>
+                </div>
+            </div>
+
+            <div class="summary-section subtotal-display">
+                <h3 class="summary-title">Subtotal:</h3>
+                <div class="form-row">
+                    <div class="form-input-box"></div>
+                </div>
+            </div>
+
+            <div class="summary-box">
+                <h4 class="resumo-compra-title">RESUMO DA COMPRA</h4>
+                <p class="resumo-compra-item">Produto(4)</p>
+                <hr class="resumo-compra-divider">
+                <div class="resumo-total-row">
+                    <span>Total</span>
+                    <span class="resumo-total-value">R$ 95,53</span>
+                </div>
+                
+                <button class="checkout-btn">Finalizar Compra</button>
+                <a href="index.html" class="continue-link">← Continuar Comprando</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
